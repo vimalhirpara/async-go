@@ -8,12 +8,10 @@ import (
 func main() {
 	// A slice of sample websites
 	urls := []string{
-		"https://www.easyjet.com/",
-		"https://www.skyscanner.de/",
-		"https://www.swi.com/",
-		"https://www.ryanair.com",
-		"https://wizzair.com/",
-		"https://www.swiss.com/",
+		"https://www.facebook.com/",
+		"https://www.face.com/",
+		"https://www.google.com/",
+		"https://www.twitter.de/",
 	}
 
 	c := make(chan urlStatus)
