@@ -12,7 +12,7 @@ func main() {
 		"https://www.facebook.com/",
 		"https://www.face.com/",
 		"https://www.google.com/",
-		"https://www.twitter.de/",
+		"https://www.twitter.com/",
 	}
 	var wg sync.WaitGroup
 

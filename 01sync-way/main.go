@@ -11,7 +11,7 @@ func main() {
 		"https://www.facebook.com/",
 		"https://www.face.com/",
 		"https://www.google.com/",
-		"https://www.twitter.de/",
+		"https://www.twitter.com/",
 	}
 	for _, url := range urls {
 		checkUrl(url)

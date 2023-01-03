@@ -11,7 +11,7 @@ func main() {
 		"https://www.facebook.com/",
 		"https://www.face.com/",
 		"https://www.google.com/",
-		"https://www.twitter.de/",
+		"https://www.twitter.com/",
 	}
 
 	c := make(chan urlStatus)
@@ -22,7 +22,7 @@ func main() {
 
 	result := make([]urlStatus, len(urls))
 
-	for i, _ := range result {
+	for i := range result {
 		result[i] = <-c // read channel
 
 		if result[i].status {
